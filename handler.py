@@ -29,7 +29,7 @@ def lambda_handler(event, context):
     if event['detail']['jobRunId'].endswith('_attempt_1'):
         logger.info('## GLUE JOB FAILED RETRY: ' + glueJobName)
     message = \
-        "A Glue Job has failed after attempting to retry. JobName: " \
+        "Ocorreu uma falha no Job. JobName: " \
         + glueJobName + ", JobRunID: " + jobRunId
     print(message)
     response = client.publish(

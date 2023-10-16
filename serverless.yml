@@ -28,6 +28,7 @@ functions:
             detail:
               state:
                 - 'FAILED'
+                - 'Failed'
                 - 'STOPPED'
                 - 'Stopped'
 
@@ -38,7 +39,7 @@ resources:
     MySubscription:
       Type: AWS::SNS::Subscription
       Properties:
-        Endpoint: <ADD YOUR EMAIL >
+        Endpoint: 'guilherme.costa@lello.com.br'
         Protocol: email
         TopicArn: !Ref 'SNSTopic'
 

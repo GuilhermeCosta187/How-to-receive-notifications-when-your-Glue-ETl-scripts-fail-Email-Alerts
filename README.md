@@ -20,12 +20,12 @@ git clone https://github.com/soumilshah1995/How-to-receive-notifications-when-yo
 
 ##### Step 2: change the Env Values 
 ```
-ACCOUNT=XXXXX
+ACCOUNT=259031787365
 TopicName=glue-jobs-topics
 
 
-DEV_ACCESS_KEY=XXXXXXXXX
-DEV_SECRET_KEY=XXX
+DEV_ACCESS_KEY = AKIATYT37M5S2C67XA7Q
+DEV_SECRET_KEY = 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
 DEV_REGION=us-east-1
 
 
