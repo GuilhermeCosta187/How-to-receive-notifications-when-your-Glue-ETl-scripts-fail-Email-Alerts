@@ -39,7 +39,7 @@ resources:
     MySubscription:
       Type: AWS::SNS::Subscription
       Properties:
-        Endpoint: 'guilherme.costa@lello.com.br'
+        Endpoint: 'email@com.br'
         Protocol: email
         TopicArn: !Ref 'SNSTopic'
 
